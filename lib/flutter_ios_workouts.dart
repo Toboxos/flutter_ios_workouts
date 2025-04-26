@@ -1,5 +1,7 @@
+library;
 
-import 'flutter_ios_workouts_platform_interface.dart';
+part 'workout_activity_type.dart';
+part 'workout.dart';
 
 class FlutterIosWorkouts {
   Future<String?> getPlatformVersion() {

@@ -1,3 +1,5 @@
+part of 'flutter_ios_workouts.dart';
+
 /// Equivalent enum to HKWorkoutActivityType in iOS
 enum WorkoutActivityType implements Comparable<WorkoutActivityType> {
   unknown(0, 'Unknown'),
