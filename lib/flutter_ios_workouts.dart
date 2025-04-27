@@ -31,8 +31,8 @@ class WorkoutsPlugin {
     final endUtc = end.toUtc().subtract(Duration(microseconds: end.microsecond));
 
     final List<dynamic>? results = await _channel.invokeMethod<List<dynamic>>("getWorkouts", {
-        "start": startUtc.toIso8601String(),
-        "end": endUtc.toIso8601String(),
+        "startTime": startUtc.toIso8601String(),
+        "endTime": endUtc.toIso8601String(),
     });
 
     if (results == null) {
