@@ -1,6 +1,8 @@
 name: flutter_ios_workouts
 description: "Allowing access to workouts from apple health and the recorded routes"
-version: 0.0.1
+version: 0.1.0
+homepage: https://github.com/Toboxos/flutter_ios_workouts
+repository: https://github.com/Toboxos/flutter_ios_workouts
 
 environment:
   sdk: ^3.6.0
