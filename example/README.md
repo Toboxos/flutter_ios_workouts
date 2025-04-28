@@ -1,16 +1,5 @@
 # flutter_ios_workouts_example
+This is an example project showing how to use the `flutter_ios_workouts` package.
+It contains a simple Flutter app that demonstrates requesting access to the HealthKit and Apple Health data, loading and showing the available workouts
+and show how to access the route data of a given workout.
 
-Demonstrates how to use the flutter_ios_workouts plugin.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
